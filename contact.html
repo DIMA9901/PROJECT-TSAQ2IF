@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryder | Contact</title>
+    <link rel="stylesheet" href="dian.css">
+    <script src="raffi.js" defer></script>
+</head>
+<body>
+<header><h1>Ryder</h1></header>
+<main class="page-content">
+    <section class="container">
+        <p class="eyebrow">Get in touch</p>
+        <h2>We'd love to hear from you.</h2>
+        <p>Have a question, suggestion, or idea for Ryder? Use the contact form below to draft a message in your email app.</p>
+        <form class="contact-form" action="mailto:" method="post" enctype="text/plain">
+            <label for="contact-name">Your name</label>
+            <input id="contact-name" name="name" type="text" autocomplete="name" required>
+            <label for="contact-email">Email address</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" required>
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="5" required></textarea>
+            <button class="page-link contact-submit" type="submit">Draft email</button>
+        </form>
+        <p class="contact-note">This opens your default email app. A working email address needs to be configured before using the form.</p>
+    </section>
+</main>
+<button class="top-left-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="top-left-menu">☰</button>
+<nav class="top-left-menu" id="top-left-menu" aria-label="Main navigation" hidden>
+    <ul>
+        <li><a href="teguh.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="travel.html">Travel</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+</nav>
+</body>
+</html>
